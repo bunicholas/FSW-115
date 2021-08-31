@@ -1,0 +1,12 @@
+{
+    "Shopname": "Silicon Valley",
+    "Menu": ["appetizers","cold sandwiches","hot sandwiches","desserts","drinks"],
+    "appetizers": ["Fried calamari","Wings"],
+    "cold sandwiches":["Caprese Sandwich","Muffaletta Sandwich"],
+    "hot sandwiches":["Grilled cheese sandwich","Quesadilla"],
+    "desserts":["ice cream","cake"],
+    "drinks":["water","juice"],
+    "juice":["orange","apple"],
+    "ice cream":["chocolate","vanilla"],
+    "cake":["chocolate","vanilla"],
+}
