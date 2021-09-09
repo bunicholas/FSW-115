@@ -1,12 +1,60 @@
 {
     "Shopname": "Silicon Valley",
     "Menu": ["appetizers","cold sandwiches","hot sandwiches","desserts","drinks"],
-    "appetizers": ["Fried calamari","Wings"],
-    "cold sandwiches":["Caprese Sandwich","Muffaletta Sandwich"],
-    "hot sandwiches":["Grilled cheese sandwich","Quesadilla"],
-    "desserts":["ice cream","cake"],
-    "drinks":["water","juice"],
-    "juice":["orange","apple"],
-    "ice cream":["chocolate","vanilla"],
-    "cake":["chocolate","vanilla"],
+    "appetizers": [
+    {
+        "name": "Fried calamari",
+        "description": "tasty",
+        "ingredients": ["Batter","Squid"]
+    },
+    {
+        "name": "Wings",
+        "description": "hot & spicy",
+        "ingredients": ["Chicken","Sauce","Pepper"]
+    }],
+    "cold sandwiches":[
+    {
+        "name": "Caprese Sandwich",
+        "description": "Normal Sandwich",
+        "ingredients": ["pesto","mozzarella","tomatoes"]
+    },
+    {
+        "name": "Muffaletta Sandwich",
+        "description": "Italian Sandwich",
+        "ingredients": ["Bread","Olive","cheese","Ham"]
+    }],
+    "hot sandwiches":[
+    {
+        "name": "Grilled cheese sandwich",
+        "description": "yummy",
+        "ingredients": ["Cheese","Grill","Bread"]
+    },
+    {
+        "name": "Quesadilla",
+        "description": "hot & spicy",
+        "ingredients": ["Chicken","Steak","Cheese"]
+    }],
+    "desserts":[
+    {
+        "name": "Ice cream",
+        "description": "delicious",
+        "ingredients":["Cream","Milk","Egg"]
+    },
+    {
+        "name": "Cake",
+        "description": "delicious",
+        "ingredients":["Flour","Water","Eggs","Oil"]
+    }],
+    "drinks":[
+    {
+        "name": "Water",
+        "description":"thristy",
+        "ingredients":["reservoir"]
+    },
+    {
+        "name": "Juice",
+        "description":"juicy",
+        "ingredients":["apples,oranges"]
+    }]
 }
+   
