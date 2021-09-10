@@ -260,11 +260,9 @@ let people = {
     ]
 }
 
-for( let i = 0; i < people.name.length; i++){
-    console.log(people.name +i)
-    people.name.innerHTML += '<h1>' + people.name + [i] + '</h1>'
-    var newheading = document.createElement('h1')
-newheading.textContent = people.name[i]
-document.body.appendChild(newheading)
-newheading.style.fontSize = ''
+let text = "";
+for (let i = 0; i < people.results.length; i++) {
+  text += people.results[i].name + "<br>";
 }
+
+document.getElementById("people").innerHTML = text;
