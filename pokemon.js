@@ -17,3 +17,4 @@ function showData(data) {
         character.textContent = data[i].language.name
         document.body.appendChild(character)
 }
+document.querySelector("body").style.color = "red";
