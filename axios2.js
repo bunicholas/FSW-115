@@ -12,10 +12,3 @@ function handleButtonClick() {
 }
 var button2 = document.getElementById("button2");
 button2.addEventListener("click", handleButtonClick);
-
-document.getElementById("header").addEventListener("dblclick", function() {
-    document.body.style.backgroundColor = "green"
-});
-document.querySelector("h1").style.color = "red";
-document.querySelector("script").style.color = "red";
-//.catch(error => console.log(error))
