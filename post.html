@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="post.css">
 </head>
 <body>
     <form name="todoform" id="newTodo">
         <input name="title" placeholder="Title" id="name"/>
-        <input name="description" placeholder="Description" id="description"/> />
+        <input name="description" placeholder="Description" id="description"/>
         <input name="imgUrl" placeholder="ImgUrl" id="price" />
+        <input type='checkbox' id='todoCompletedInput' />
         <button>Submit</button>
     </form>
+    <div id="content"></div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="post.js"></script>
+    <script src="post.js"async defer></script>
 </body>
 </html>
