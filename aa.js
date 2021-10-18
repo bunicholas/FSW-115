@@ -1,5 +1,5 @@
 async function GetAllLukeMovies(){
-    const LukeData = await axios.get('https://swapi.dev/api/people/1')
+    const LukeData = await axios.get('http://api.sportradar.us/nascar-t3/go/2021/drivers/list.json?api_key=fqn3rxyy2fwa3fn2nbk5yq9a')
     const LukeFilms = LukeData.data.films
     const pendingFilmsPromises = []
 
