@@ -117,4 +117,18 @@ const displayStarWars = (items) => {
     cards.appendChild(StarwarsElement)
     StarwarsElement.textContent = item.name
     cards.classList.add('newTodo')
+    let button = document.createElement('button')
+    button.addEventListener('click',saveStarWars)
+    button.value = item.name
+    container.appendChild(button)
     })}
+function saveStarWars(e){
+ let data={
+name:e.target.value
+    }
+axios.post('http://api.bryanuniversity.edu/<nickcarroll>/list/',data)
+.then(res => {
+    displayItems(res.data)
+})
+.catch(err => console.log(err))
+}
