@@ -32,7 +32,7 @@ document.getElementById("header").addEventListener("dblclick", function() {
 document.querySelector("h1").style.color = "red";
 document.querySelector("script").style.color = "red";
 
-
+page1()
 
 
 
